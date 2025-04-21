@@ -1,8 +1,7 @@
 import { createPortal } from 'react-dom'
 import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { Dialog, DialogContent, DialogTitle, TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Paper } from '@mui/material'
-import moment from 'moment'
+import { Dialog, DialogContent, DialogTitle, TableContainer, Table, TableRow, TableCell, TableBody, Paper } from '@mui/material'
 import axios from 'axios'
 import { baseURL } from '@/store/constant'
 
@@ -67,8 +66,8 @@ const AboutDialog = ({ show, onCancel }) => {
                                     <TableCell component='th' scope='row'>
                                         SimplifyAI is all about making smart automation simple. We&apos;ve built a platform that lets
                                         quickly create chatbots and AI helpers using the cool tech of generative AI – like those big
-                                        language models you hear about. <p></p>Think of it as a no-code/low-code way to get AI working for you,
-                                        without needing to be a coding whiz. <p></p>Current version: SimplifyAI v1.0
+                                        language models you hear about. <p></p>Think of it as a no-code/low-code way to get AI working for
+                                        you, without needing to be a coding whiz. <p></p>Current version: SimplifyAI v1.0
                                     </TableCell>
                                 </TableRow>
                             </TableBody>
